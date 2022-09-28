@@ -1,7 +1,6 @@
 const fs = require("fs");
 const process = require("process");
 const lab3 = require("./mathHelpers");
-console.log(process.argv);
 
 const processInput = (xOne, yOne, xTwo, yTwo, dirName) => {
   fs.mkdir(dirName, (err) => {
